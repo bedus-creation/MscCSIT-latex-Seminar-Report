@@ -1,0 +1,50 @@
+\ifdefined\COMPLETE
+\else
+\documentclass[12pt]{report}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{physics}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\usepackage[%
+left=1.5in,%
+right=1.0in,%
+top=1.0in,%
+bottom=1.0in,%
+]{geometry}%
+\begin{document}
+\import{section/}{001-cover.tex}
+\import{section/}{002-supervisor-recommendation.tex}
+\import{section/}{003-approval.tex}
+	
+	
+	
+\pagenumbering{roman}
+\setcounter{page}{1}
+\import{section/}{004-abstract.tex}          
+\tableofcontents
+	
+	
+\thispagestyle{empty} 
+\listoffigures 
+\newpage
+	
+\clearpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\chapter{Introduction}
+\section{Background}
+Artificial neural network (ANN), usually called Neural Network (NN), is an
+
+\chapter{LITERATURE REVIEW}
+\section{Previous Works, Discussions and Findings}
+The history of Artificial Intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with 	
+\chapter{METHODOLOGY}
+\section{Perceptron}
+Perceptrons were developed in the 1950s and 1960s by the scientist Frank Rosenblatt, inspired by earlier work by Warren McCulloch and Walter Pitts.	
+	
+\end{document}
+\fi
