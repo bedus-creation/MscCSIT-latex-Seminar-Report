@@ -15,3 +15,7 @@ sudo apt install textlive-science
 
 ### Installing latex Editor
 https://www.texstudio.org/
+
+
+### Preview
+<img src="./docs/image.png">
