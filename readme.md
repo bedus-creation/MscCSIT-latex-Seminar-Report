@@ -5,12 +5,12 @@ Before to start documentation, your system must have latex compiler and latex ed
 
 ### Installing Latex Compiler
 ```shell
-sudo apt install textlive-base
+sudo apt install texlive-base
 ```
 
 ### Install Other library
 ```
-sudo apt install textlive-science
+sudo apt install texlive-science
 ```
 
 ### Installing latex Editor
