@@ -4,8 +4,3 @@
 *.aux
 *.gz
 *.pdf
-main-blx.bib
-*.xml
-*.lot
-*.blg
-*.bbl
