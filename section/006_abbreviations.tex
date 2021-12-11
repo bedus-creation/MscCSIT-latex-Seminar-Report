@@ -1,0 +1,11 @@
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}}}
+\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
+\begin{abbreviations}
+	\item [LSTM] Long Short Term Memory
+	\item [GRU] Gated Neural Network
+	\item [RNN] Recurrent Neural Network
+	\item [CNN] Convolutional Neural Network
+	\item[MAE] Mean Absolute Error
+	\item[RMSE] Root Mean Square Error 
+	\item[DA] Directional Accuracy
+\end{abbreviations}
